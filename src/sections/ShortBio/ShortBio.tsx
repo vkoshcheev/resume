@@ -7,7 +7,7 @@ const ShortBio = () => {
     <div className="section">
       <div className="section__title">Обо мне:</div>
       <div className="short-bio__main-info-block__text">
-        <p>1,5 года коммерческой разработки в TrialInteractive, занимающейся проектами в сфере медицины.</p>
+        <p>1,5 года коммерческой разработки в Trial Interactive, занимающейся проектами в сфере медицины.</p>
         <p>
           4 месяца проектной занятости в российской компании IceRockDev, работа над приложением для
           регистрации ДТП с интеграцией сервиса ЕСИА/Госуслуги.
