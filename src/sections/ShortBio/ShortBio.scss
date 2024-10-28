@@ -1,0 +1,18 @@
+.short-bio__main-info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.short-bio__main-info-block__text {
+  font-size: 16px;
+}
+
+.short-bio__main-info-block__education-caption {
+  font-size: 20px;
+  font-weight: bold;
+}
+.short-bio__main-info-block__education-text {
+  font-size: 16px;
+  font-weight: bold;
+}

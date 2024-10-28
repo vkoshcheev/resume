@@ -18,3 +18,10 @@ body {
   background-color: themeConstants.$color-bright;
   color: themeConstants.$color-dark;
 }
+
+p {
+  margin-bottom: 0;
+}
+p:first-child {
+  margin: 0;
+}
