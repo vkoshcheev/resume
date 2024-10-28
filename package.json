@@ -1,0 +1,28 @@
+{
+  "name": "resume-website",
+  "homepage": "https://vkoshcheev.github.io/resume",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clear-cache": "rm -rf dist .parcel-cache",
+    "start": "npm run clear-cache && parcel serve public/index.html --open",
+    "build": "npm run clear-cache && parcel build public/index.html --public-url ./",
+    "serve-local-build": "python -m http.server 3000 --directory dist"
+  },
+  "author": "VK",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "sass": "^1.80.2",
+    "typescript": "^5.6.3"
+  }
+}
+
