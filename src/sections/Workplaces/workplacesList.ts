@@ -6,6 +6,7 @@ export interface WorkplaceData {
   duration: string;
   startDate: string;
   finishDate: string;
+  sortOrder: number;
 }
 
 export const workplacesList: WorkplaceData[] = [
@@ -25,6 +26,7 @@ export const workplacesList: WorkplaceData[] = [
     startDate: 'Апрель 2024',
     finishDate: 'Октябрь 2024',
     duration: '7 месяцев',
+    sortOrder: 3,
   },
 
 
@@ -37,6 +39,7 @@ export const workplacesList: WorkplaceData[] = [
     startDate: 'Октябрь 2023',
     finishDate: 'Март 2024',
     duration: '6 месяцев',
+    sortOrder: 2,
   },
   
   {
@@ -51,6 +54,7 @@ export const workplacesList: WorkplaceData[] = [
     startDate: 'Март 2023',
     finishDate: 'Июль 2023',
     duration: '5 месяцев',
+    sortOrder: 1,
   },
 
   {
@@ -109,5 +113,6 @@ export const workplacesList: WorkplaceData[] = [
     Third party tools: Bugsnag
 
     Размер команды: 2`,
+    sortOrder: 0,
   },
 ];
