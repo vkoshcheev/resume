@@ -1,0 +1,32 @@
+@use "../../../utils/themeConstants";
+
+.skills-list__items__skill-set {
+  display: flex;
+  flex-direction: column;
+  // padding: 5px;
+  // background-color: themeConstants.$color-light1;
+  // border-radius: 10px;
+
+  border-top: 3px dotted themeConstants.$color-medium;
+  padding-top: 5px;
+  &:first-child {
+    padding-top: 0;
+    border: none;
+  }
+}
+
+.skills-list__items__skill-set__title {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+
+  &:first-child {
+    margin-top: 0px;
+  }
+}
+
+.skills-list__items__skill-set__skill {
+  font-size: 16px;
+  white-space: pre-wrap;
+}
