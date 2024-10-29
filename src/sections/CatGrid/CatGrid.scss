@@ -1,0 +1,24 @@
+@use "../../utils//themeConstants";
+
+.cat-grid {
+  width: 100%;
+  display: grid;
+  gap: 16px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+            "c1 c2 c3"
+            "c4 c2 c5"
+            "c6 c6 c5";
+}
+
+.cat-grid > div {
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 10px;
+  outline: 2px solid themeConstants.$color-medium;
+
+  background-size: cover;
+  background-position: center;
+}

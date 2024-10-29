@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import CatGrid from './sections/CatGrid/CatGrid';
 import Credentials from './sections/Credentials/Credentials';
 import ShortBio from './sections/ShortBio/ShortBio';
 import SkillsList from './sections/SkillsList/SkillsList';
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <ShortBio />
       <Workplaces />
       <SkillsList />
+      <CatGrid />
     </div>
   );
 };
