@@ -27,5 +27,7 @@ p:first-child {
 }
 
 button {
+  cursor: pointer;
+  user-select: none;
   border: 0;
 }
