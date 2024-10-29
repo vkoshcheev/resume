@@ -20,6 +20,17 @@ const Credentials = () => {
             Ссылка
           </a>
         </div>
+
+        <div className="credentials__main-info-block__hh-link-section">
+          Исходный код:
+          <br />
+          <a
+            href="https://github.com/vkoshcheev/resume"
+            target="_blank"
+          >
+            https://github.com/vkoshcheev/resume
+          </a>
+        </div>
       </div>
     </div>
   );
