@@ -1,6 +1,7 @@
 @use "../../utils//themeConstants";
 
 .cat-grid {
+  aspect-ratio: 1;
   width: 100%;
   display: grid;
   gap: 16px;
@@ -14,8 +15,6 @@
 }
 
 .cat-grid > div {
-  min-width: 200px;
-  min-height: 200px;
   border-radius: 10px;
   outline: 2px solid themeConstants.$color-medium;
 

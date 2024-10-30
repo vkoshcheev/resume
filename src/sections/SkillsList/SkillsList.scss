@@ -32,9 +32,6 @@
 }
 
 .skills-list__search-container__search-reset-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 40px;
   width: 40px;
   
@@ -43,7 +40,8 @@
   
   color: themeConstants.$color-dark;
   background-color: themeConstants.$color-bright;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 20px;
 
   @media (hover: hover) {
     &:hover {

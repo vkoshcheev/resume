@@ -18,11 +18,12 @@ const ShortBio = () => {
         </p>
       </div>
 
-      <div className="section__title" style={{ marginTop: 20 }}>Образование:</div>
-      <div>
-        <div className="short-bio__main-info-block__education-caption">Высшее (Магистр)</div>
-        <p className="short-bio__main-info-block__education-text">
-          Уфимский Государственный Авиационный Технический Университет (УГАТУ), РФ
+      <div className='short-bio__separator'/>
+      <div className="section__title">Образование:</div>
+      <div className="short-bio__main-info-block__education-caption">Высшее (Магистр)</div>
+      <div className="short-bio__main-info-block__text">
+        <p>
+          <b>Уфимский Государственный Авиационный Технический Университет (УГАТУ), РФ</b>
         </p>
         <p><b>Факультет</b>: Информатики и Робототехники (ФИРТ)</p>
         <p><b>Направление</b>: 27.04.04 Управление в Технических Системах</p>

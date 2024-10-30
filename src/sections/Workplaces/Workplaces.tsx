@@ -15,18 +15,18 @@ const Workplaces = () => {
     );
   }
 
-  const sortSymbol = sortOrderFromFirst ? '⭣' : '⭡';
+  const sortSymbol = sortOrderFromFirst ? ' ⇣' : '⇡'; // ⇣⇡↓↑
 
   return (
     <div className="section">
       <div className="workplaces-list__header">
         <div className="section__title">Места работы:</div>
         <button className="workplaces-list__header__sort-button" onClick={onSortButtonClick}>
-          Сортировка {sortSymbol}
+          Сортировка <span className="arrow">{sortSymbol}</span>
         </button>
       </div>
       <div className="workplaces-list__title-note">
-        (нажмите на "+" чтобы посмотреть подробную информацию)
+        (нажмите на "+", чтобы посмотреть подробную информацию)
       </div>
       <div className="workplaces-list__items-container">
         {workplacesListSorted.map((workplaceData, index) => (

@@ -10,25 +10,28 @@ const Credentials = () => {
         <div className="credentials__main-info-block__credentials-text">Владимир</div>
         <div className="credentials__main-info-block__text">Frontend разработчик React & React Native</div>
 
-        <div className="credentials__main-info-block__hh-link-section">
-          Контакты можно найти на странице резюме hh.ru:
-          <br />
+        <div className="credentials__main-info-block__link-section">
+          <div className="show-above-720">Контакты можно найти на странице резюме hh.ru:<br /></div>
+          
           <a
             href="https://hh.ru/applicant/resumes/view?resume=fff97ac1ff0d88607e0039ed1f4a39617a3041"
             target="_blank"
           >
-            Ссылка
+            Ссылка на резюме (hh.ru)
           </a>
         </div>
 
-        <div className="credentials__main-info-block__hh-link-section">
+        <div className="credentials__main-info-block__link-section show-above-720">
           Исходный код:
           <br />
-          <a
-            href="https://github.com/vkoshcheev/resume"
-            target="_blank"
-          >
+          <a href="https://github.com/vkoshcheev/resume" target="_blank">
             https://github.com/vkoshcheev/resume
+          </a>
+        </div>
+
+        <div className="credentials__main-info-block__link-section show-below-720">
+          <a href="https://github.com/vkoshcheev/resume" target="_blank">
+            Ссылка на исходный код страницы
           </a>
         </div>
       </div>
