@@ -7,7 +7,7 @@ export const skillSets: SkillSet[] = [
   {
     skillSetName: "Платформы",
     skills: [
-      ["Web (кроссбраузерная вёрстка, кроссплатформенная вёрстка)", "веб", "cross browser compatibility", "cross platform compatibility"],
+      ["Web (кроссбраузерная, кроссплатформенная, адаптивная вёрстка)", "веб", "cross browser compatibility", "cross platform compatibility", "adaptive design"],
       ["Android", "Андроид"],
       ["iOS", "apple", "iphone", "mac", "мак", "айфон", ],
     ],
