@@ -81,7 +81,7 @@ const SkillsList = () => {
   // ################################################################################################
   return (
     <div className="section">
-      <div className="section__title">Навыки:</div>
+      <div className="section__title">Навыки</div>
 
       <div className="skills-list__search-container">
         <input

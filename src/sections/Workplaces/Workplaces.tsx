@@ -20,7 +20,7 @@ const Workplaces = () => {
   return (
     <div className="section">
       <div className="workplaces-list__header">
-        <div className="section__title">Места работы:</div>
+        <div className="section__title">Места работы</div>
         <button className="workplaces-list__header__sort-button" onClick={onSortButtonClick}>
           Сортировка <span className="arrow">{sortSymbol}</span>
         </button>

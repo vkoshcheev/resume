@@ -5,7 +5,7 @@ import './CatGrid.scss';
 const CatGrid = () => {
   return (
     <div className="section">
-      <div className="section__title">Котеки:</div>
+      <div className="section__title">Котеки</div>
 
       <div className="cat-grid">
         <div style={{ gridArea: "c1", backgroundImage: getCssUrl(images.mischiefCat) }} />

@@ -5,7 +5,7 @@ const ShortBio = () => {
   
   return (
     <div className="section">
-      <div className="section__title">Обо мне:</div>
+      <div className="section__title">Обо мне</div>
       <div className="short-bio__main-info-block__text">
         <p>1,5 года коммерческой разработки в Trial Interactive, занимающейся проектами в сфере медицины.</p>
         <p>
@@ -19,7 +19,7 @@ const ShortBio = () => {
       </div>
 
       <div className='short-bio__separator'/>
-      <div className="section__title">Образование:</div>
+      <div className="section__title">Образование</div>
       <div className="short-bio__main-info-block__education-caption">Высшее (Магистр)</div>
       <div className="short-bio__main-info-block__text">
         <p>
