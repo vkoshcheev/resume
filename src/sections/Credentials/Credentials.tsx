@@ -7,7 +7,7 @@ const Credentials = () => {
       <img src={images.profileImage} className="credentials-avatar" />
 
       <div className="credentials__main-info-block">
-        <div className="credentials__main-info-block__credentials-text">Владимир</div>
+        <div className="section__title">Владимир</div>
         <div className="credentials__main-info-block__text">Frontend разработчик React & React Native</div>
 
         <div className="credentials__main-info-block__link-section">
