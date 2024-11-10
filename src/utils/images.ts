@@ -1,4 +1,4 @@
-import profileImage from '../images/car.gif';
+import profileImage from '../images/photo.jpg';
 
 import catPlay from '../images/cat-grid/cat-play.gif';
 import catSillyKitty from '../images/cat-grid/cat-silly-kitty.gif';
