@@ -8,7 +8,7 @@
     "start": "npm run clear-cache && parcel serve public/index.html --open",
     "build": "npm run clear-cache && parcel build public/index.html --public-url ./",
     "serve-local-build": "python -m http.server 3000 --directory dist",
-    "deploy": "npm run build && gh-pages -d dist"
+    "build-and-deploy": "npm run build && gh-pages -d dist"
   },
   "author": "VK",
   "license": "ISC",
