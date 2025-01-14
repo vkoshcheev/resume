@@ -29,9 +29,23 @@ const Credentials = () => {
           </a>
         </div>
 
+        <div className="credentials__main-info-block__link-section show-above-720">
+        Мой вебсайт с курсами валют стран СНГ:
+          <br />
+          <a href="https://vkoshcheev.github.io/exchange-rates/" target="_blank">
+            https://vkoshcheev.github.io/exchange-rates
+          </a>
+        </div>
+
         <div className="credentials__main-info-block__link-section show-below-720">
           <a href="https://github.com/vkoshcheev/resume" target="_blank">
             Ссылка на исходный код страницы
+          </a>
+        </div>
+
+        <div className="credentials__main-info-block__link-section show-below-720">
+          <a href="https://vkoshcheev.github.io/exchange-rates/" target="_blank">
+            Мой вебсайт - курсы валют стран СНГ
           </a>
         </div>
       </div>
