@@ -7,13 +7,8 @@
 }
 
 .short-bio__main-info-block__text {
-  font-size: 18px;
-  line-height: 18px;
-  
-  @media(max-width: 720px) {
-    font-size: 16px;
-    line-height: 16px;
-  }
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .short-bio__separator {
