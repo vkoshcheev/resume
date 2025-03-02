@@ -30,7 +30,7 @@ const Credentials = () => {
         </div>
 
         <div className="credentials__main-info-block__link-section show-above-720">
-        Мой вебсайт с курсами валют стран СНГ:
+          Мой вебсайт с курсами валют стран СНГ:
           <br />
           <a href="https://vkoshcheev.github.io/exchange-rates/" target="_blank">
             https://vkoshcheev.github.io/exchange-rates
