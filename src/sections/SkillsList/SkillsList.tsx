@@ -1,7 +1,6 @@
 import { debounce, isEqual } from 'lodash';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { sleep } from '../../utils/helper';
-import useComponentDidUpdate from '../../utils/hooks/useComponentDidUpdate';
+import { sleep, useComponentDidUpdate } from 'utils-library';
 import './SkillsList.scss';
 import SkillSetItem from './components/SkillSetItem';
 import { searchSkill } from './searchSkill';

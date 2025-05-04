@@ -1,4 +1,4 @@
-import { getCssUrl } from '../../utils/helper';
+import { getImageUrlForCss as getCssUrl } from 'utils-library';
 import images from '../../utils/images';
 import './CatGrid.scss';
 
