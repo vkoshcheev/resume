@@ -1,0 +1,21 @@
+@use "../../utils/themeConstants";
+
+.web-vitals {
+  position: fixed;
+  opacity: 0.5;
+  bottom: 10;
+  right: 10;
+
+  padding: 10px;
+  border-radius: 5;
+  background: themeConstants.$color-light;
+
+  font-size: 14px;
+  color: themeConstants.$color-dark;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}
