@@ -17,6 +17,7 @@ export const skillSets: SkillSet[] = [
     skillSetName: "Стек",
     skills: [
       ["React", "Реакт"],
+      ["Next.JS", "Next", "Некст"],
       ["React Native", "Реакт Нейтив"],
       "Typescript",
       "Javascript",
