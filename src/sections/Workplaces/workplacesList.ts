@@ -59,7 +59,7 @@ export const workplacesList: WorkplaceData[] = [
 
   {
     companyName: 'Trial Interactive',
-    occupation: 'Frontend разработчик (React-Native)',
+    occupation: 'Frontend разработчик (React / React-Native)',
        
     startDate: 'Сентябрь 2021',
     finishDate: 'Март 2023',
