@@ -1,6 +1,6 @@
-import { getImageUrlForCss as getCssUrl } from 'utils-library';
-import images from '../../utils/images';
+import media from '../../utils/media';
 import './CatGrid.scss';
+import CatGridItem from './CatGridItem';
 
 const CatGrid = () => {
   return (
@@ -8,12 +8,12 @@ const CatGrid = () => {
       <div className="section__title">Котеки</div>
 
       <div className="cat-grid">
-        <div style={{ gridArea: "c1", backgroundImage: getCssUrl(images.mischiefCat) }} />
-        <div style={{ gridArea: "c2", backgroundImage: getCssUrl(images.catSillyKitty) }} />
-        <div style={{ gridArea: "c3", backgroundImage: getCssUrl(images.sleepTime) }} />
-        <div style={{ gridArea: "c4", backgroundImage: getCssUrl(images.catDrinking) }} />
-        <div style={{ gridArea: "c5", backgroundImage: getCssUrl(images.catPlay) }} />
-        <div style={{ gridArea: "c6", backgroundImage: getCssUrl(images.internetCats) }} />
+        <CatGridItem gridArea="c1" mp4src={media.mischiefCat} />
+        <CatGridItem gridArea="c2" mp4src={media.catSillyKitty} />
+        <CatGridItem gridArea="c3" mp4src={media.sleepTime} />
+        <CatGridItem gridArea="c4" mp4src={media.catDrinking} />
+        <CatGridItem gridArea="c5" mp4src={media.catPlay} />
+        <CatGridItem gridArea="c6" mp4src={media.internetCats} />
       </div>
     </div>
   );

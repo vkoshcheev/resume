@@ -1,10 +1,10 @@
-import images from '../../utils/images';
+import media from '../../utils/media';
 import './Credentials.scss';
 
 const Credentials = () => {
   return (
     <div className="section section-row">
-      <img src={images.profileImage} className="credentials-avatar" />
+      <img src={media.profileImage} className="credentials-avatar" />
 
       <div className="credentials__main-info-block">
         <div className="section__title">Владимир</div>
