@@ -11,7 +11,7 @@
     "build-and-deploy": "npm run build && gh-pages -d dist"
   },
   "author": "VK",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "lodash": "^4.17.21",
     "react": "^18.3.1",
