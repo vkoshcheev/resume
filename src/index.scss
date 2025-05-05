@@ -14,8 +14,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: themeConstants.$color-bright;
   color: themeConstants.$color-dark;
+
+  $bg-size: 4px;
+  $bg-color-main: themeConstants.$color-bright;
+  $bg-color-alt: themeConstants.$color-bright1;
+
+  background-repeat: repeat;
+  background-color: $bg-color-main;
+  background-position:  $bg-size 0, $bg-size 0, 0 0, 0 0;
+  background-size: $bg-size $bg-size;
+  background-image: linear-gradient( 45deg, $bg-color-alt 25%, transparent 25%),
+                    linear-gradient(135deg, $bg-color-alt 25%, transparent 25%),
+                    linear-gradient(225deg, $bg-color-alt 25%, transparent 25%),
+                    linear-gradient(315deg, $bg-color-alt 25%, transparent 25%);
 }
 
 p {
