@@ -10,7 +10,7 @@ const Credentials = () => {
 
         <div className="credentials__main__info-block">
           <div className="section__title">Владимир</div>
-          <div className="credentials__main__info-block__text">Front-end разработчик <b>React</b></div>
+          <div className="credentials__main__info-block__text">Front-end разработчик <b>React&nbsp;&&nbsp;Next.JS</b></div>
 
           <div className="show-above-720" style={{ marginTop: 'auto'}}>
             <div className="credentials__main__info-block__links-section">
