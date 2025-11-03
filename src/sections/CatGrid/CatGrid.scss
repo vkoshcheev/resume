@@ -1,0 +1,31 @@
+@use "../../utils//themeConstants";
+
+.cat-grid {
+  margin-top: -4px;
+  aspect-ratio: 1;
+  width: 100%;
+  display: grid;
+  gap: 16px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+            "c1 c2 c3"
+            "c4 c2 c5"
+            "c6 c6 c5";
+
+  div {
+    border-radius: 10px;
+    outline: 2px solid themeConstants.$color-medium;
+
+    overflow: hidden;
+    position: relative;
+
+    video {
+      position: absolute;
+      width: 101%;
+      height: 101%;
+      object-fit: cover;
+    }
+  }
+}

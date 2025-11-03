@@ -1,0 +1,77 @@
+@use '../../../utils/themeConstants';
+
+.workplaces-list__item {
+  display: flex;
+  flex-direction: row;
+  background-color: themeConstants.$color-light1;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.workplaces-list__item__header {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.workplaces-list__item__header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 10px;
+  background-color: themeConstants.$color-bright;
+
+  @media (hover: hover) {
+    &:hover {
+      outline: 2px solid themeConstants.$color-medium;
+    }
+  }
+}
+
+.workplaces-list__item__header__button__rotating-div {
+  font-size: 20px;
+  line-height: 20px;
+  transition: transform 0.5s ease-in-out;
+  transform: rotate(45deg);
+}
+
+.workplaces-list__item__header__text-container__company-name {
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.workplaces-list__item__header__text-container__occupation {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.workplaces-list__item__header__text-container__dates {
+  font-size: 12px;
+  margin-top: 2px;
+  // line-height: 18px;
+}
+
+
+.workplaces-list__item__main-text {
+  padding: 10px;
+  padding-left: 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+
+  // border-top: 3px dashed themeConstants.$color-medium;
+  border-top: 2px dotted themeConstants.$color-medium;
+}

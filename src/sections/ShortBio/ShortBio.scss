@@ -1,0 +1,29 @@
+@use "../../utils/themeConstants";
+
+.short-bio__main-info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.short-bio__main-info-block__text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.short-bio__separator {
+  height: 2px;
+  width: 100%;
+  border-top: 2px dotted themeConstants.$color-medium;
+}
+
+.short-bio__main-info-block__education-caption {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+
+  @media(max-width: 720px) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
