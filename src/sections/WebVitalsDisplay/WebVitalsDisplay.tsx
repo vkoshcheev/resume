@@ -8,7 +8,7 @@ const WebVitalsDisplay = () => {
   const metrics = useWebVitals();
 
   return (
-    <div className="web-vitals">
+    <div className="web-vitals show-above-720">
       <u><b>Web Vitals</b></u>
       <ul>
         {orderedMetrics.map(
